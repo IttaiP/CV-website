@@ -1,0 +1,116 @@
+
+/* ------------------------------------------------------ */
+/* Tfilati addition */
+/* ------------------------------------------------------ */
+
+.pair-block{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+
+.screen-shot{
+    max-height: 350px;
+}
+
+.video{
+    max-height: 350px;
+}
+
+.second-in-pair:last-child{
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .video{
+        max-height: 250px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .screen-shot{
+        max-width: 160px;
+        align-self: center;
+    }
+
+    .video{
+        max-height: 160px;
+        align-self: center;
+
+    }
+
+    .second-in-pair:last-child{
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .pair-block{
+        flex-direction: column;
+    }
+
+    .text-from-pair{
+        padding-bottom: 0;
+    }
+
+    .media{
+        align-self: center;
+    }
+
+    .video{
+        width: 300px;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    .text-from-pair{
+        padding-bottom: 60px;
+    }
+  }
+
+.text-from-pair{
+    align-self: center;
+    width: 50%;
+}
+
+.sentence{
+    padding-bottom: 10px;
+}
+
+.tfila-siddur{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(img/tfilati/kotel.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/tfilati/kotel.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(img/tfilati/kotel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-first-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.screen-shot-footer{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dark-back{
+    color: antiquewhite;
+
+}
+
+
+.personalization1{
+    background-color: #d8c9c9;
+}
+
+.personalization2{
+    background-color: #f4f4f4;
+}
+
